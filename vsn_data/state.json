@@ -1,0 +1,498 @@
+{
+  "debug": true,
+  "dry_run": false,
+  "inverter_connected": true,
+  "last_upload": "2025-10-20T09:23:20",
+  "uptime_minutes_today": 204.1,
+  "records": [
+    {
+      "timestamp": "2025-10-19T14:11:25",
+      "power_w": 700,
+      "energy_wh": 0
+    },
+    {
+      "timestamp": "2025-10-19T14:16:26",
+      "power_w": 1020,
+      "energy_wh": 72
+    },
+    {
+      "timestamp": "2025-10-19T14:21:27",
+      "power_w": 735,
+      "energy_wh": 72
+    },
+    {
+      "timestamp": "2025-10-19T14:23:08",
+      "power_w": 757,
+      "energy_wh": 24
+    },
+    {
+      "timestamp": "2025-10-19T14:28:08",
+      "power_w": 865,
+      "energy_wh": 72
+    },
+    {
+      "timestamp": "2025-10-19T14:38:13",
+      "power_w": 675,
+      "energy_wh": 136
+    },
+    {
+      "timestamp": "2025-10-19T14:43:14",
+      "power_w": 564,
+      "energy_wh": 48
+    },
+    {
+      "timestamp": "2025-10-19T14:48:15",
+      "power_w": 455,
+      "energy_wh": 48
+    },
+    {
+      "timestamp": "2025-10-19T14:53:17",
+      "power_w": 515,
+      "energy_wh": 40
+    },
+    {
+      "timestamp": "2025-10-19T14:58:18",
+      "power_w": 414,
+      "energy_wh": 40
+    },
+    {
+      "timestamp": "2025-10-19T15:03:23",
+      "power_w": 553,
+      "energy_wh": 40
+    },
+    {
+      "timestamp": "2025-10-19T15:08:24",
+      "power_w": 528,
+      "energy_wh": 40
+    },
+    {
+      "timestamp": "2025-10-19T15:13:25",
+      "power_w": 564,
+      "energy_wh": 48
+    },
+    {
+      "timestamp": "2025-10-19T15:18:26",
+      "power_w": 601,
+      "energy_wh": 56
+    },
+    {
+      "timestamp": "2025-10-19T15:23:27",
+      "power_w": 520,
+      "energy_wh": 48
+    },
+    {
+      "timestamp": "2025-10-19T15:28:28",
+      "power_w": 544,
+      "energy_wh": 40
+    },
+    {
+      "timestamp": "2025-10-19T15:33:29",
+      "power_w": 470,
+      "energy_wh": 48
+    },
+    {
+      "timestamp": "2025-10-19T15:38:30",
+      "power_w": 340,
+      "energy_wh": 32
+    },
+    {
+      "timestamp": "2025-10-19T15:43:31",
+      "power_w": 400,
+      "energy_wh": 32
+    },
+    {
+      "timestamp": "2025-10-19T15:48:32",
+      "power_w": 549,
+      "energy_wh": 40
+    },
+    {
+      "timestamp": "2025-10-19T15:53:33",
+      "power_w": 473,
+      "energy_wh": 40
+    },
+    {
+      "timestamp": "2025-10-19T15:58:34",
+      "power_w": 458,
+      "energy_wh": 40
+    },
+    {
+      "timestamp": "2025-10-19T16:03:35",
+      "power_w": 421,
+      "energy_wh": 32
+    },
+    {
+      "timestamp": "2025-10-19T16:08:36",
+      "power_w": 321,
+      "energy_wh": 40
+    },
+    {
+      "timestamp": "2025-10-19T16:13:37",
+      "power_w": 303,
+      "energy_wh": 24
+    },
+    {
+      "timestamp": "2025-10-19T16:18:38",
+      "power_w": 159,
+      "energy_wh": 24
+    },
+    {
+      "timestamp": "2025-10-19T16:23:39",
+      "power_w": 129,
+      "energy_wh": 8
+    },
+    {
+      "timestamp": "2025-10-19T16:28:40",
+      "power_w": 103,
+      "energy_wh": 8
+    },
+    {
+      "timestamp": "2025-10-19T16:33:41",
+      "power_w": 147,
+      "energy_wh": 16
+    },
+    {
+      "timestamp": "2025-10-19T16:38:42",
+      "power_w": 146,
+      "energy_wh": 8
+    },
+    {
+      "timestamp": "2025-10-19T16:43:44",
+      "power_w": 137,
+      "energy_wh": 16
+    },
+    {
+      "timestamp": "2025-10-19T16:48:45",
+      "power_w": 155,
+      "energy_wh": 8
+    },
+    {
+      "timestamp": "2025-10-19T16:53:46",
+      "power_w": 165,
+      "energy_wh": 16
+    },
+    {
+      "timestamp": "2025-10-19T17:10:16",
+      "power_w": 359,
+      "energy_wh": 64
+    },
+    {
+      "timestamp": "2025-10-19T17:15:18",
+      "power_w": 333,
+      "energy_wh": 24
+    },
+    {
+      "timestamp": "2025-10-19T17:20:18",
+      "power_w": 259,
+      "energy_wh": 24
+    },
+    {
+      "timestamp": "2025-10-19T17:25:19",
+      "power_w": 207,
+      "energy_wh": 24
+    },
+    {
+      "timestamp": "2025-10-19T17:30:20",
+      "power_w": 126,
+      "energy_wh": 8
+    },
+    {
+      "timestamp": "2025-10-19T17:35:10",
+      "power_w": 132,
+      "energy_wh": 16
+    },
+    {
+      "timestamp": "2025-10-19T17:40:11",
+      "power_w": 159,
+      "energy_wh": 24
+    },
+    {
+      "timestamp": "2025-10-19T17:45:12",
+      "power_w": 152,
+      "energy_wh": 40
+    },
+    {
+      "timestamp": "2025-10-19T17:50:13",
+      "power_w": 108,
+      "energy_wh": 48
+    },
+    {
+      "timestamp": "2025-10-19T17:55:46",
+      "power_w": 135,
+      "energy_wh": 64
+    },
+    {
+      "timestamp": "2025-10-19T18:00:47",
+      "power_w": 124,
+      "energy_wh": 72
+    },
+    {
+      "timestamp": "2025-10-19T18:05:48",
+      "power_w": 96,
+      "energy_wh": 80
+    },
+    {
+      "timestamp": "2025-10-19T18:10:49",
+      "power_w": 61,
+      "energy_wh": 88
+    },
+    {
+      "timestamp": "2025-10-19T18:15:50",
+      "power_w": 41,
+      "energy_wh": 88
+    },
+    {
+      "timestamp": "2025-10-19T18:20:51",
+      "power_w": 18,
+      "energy_wh": 96
+    },
+    {
+      "timestamp": "2025-10-19T18:25:52",
+      "power_w": 0,
+      "energy_wh": 96
+    },
+    {
+      "timestamp": "2025-10-19T18:30:52",
+      "power_w": 0,
+      "energy_wh": 96
+    },
+    {
+      "timestamp": "2025-10-19T18:35:52",
+      "power_w": 0,
+      "energy_wh": 96
+    },
+    {
+      "timestamp": "2025-10-19T18:40:52",
+      "power_w": 0,
+      "energy_wh": 96
+    },
+    {
+      "timestamp": "2025-10-19T18:45:52",
+      "power_w": 0,
+      "energy_wh": 96
+    },
+    {
+      "timestamp": "2025-10-19T18:50:53",
+      "power_w": 0,
+      "energy_wh": 96
+    },
+    {
+      "timestamp": "2025-10-20T05:44:23",
+      "power_w": 0,
+      "energy_wh": 0
+    },
+    {
+      "timestamp": "2025-10-20T05:49:23",
+      "power_w": 9,
+      "energy_wh": 0
+    },
+    {
+      "timestamp": "2025-10-20T05:54:27",
+      "power_w": 7,
+      "energy_wh": 0
+    },
+    {
+      "timestamp": "2025-10-20T05:59:29",
+      "power_w": 22,
+      "energy_wh": 0
+    },
+    {
+      "timestamp": "2025-10-20T06:04:30",
+      "power_w": 41,
+      "energy_wh": 0
+    },
+    {
+      "timestamp": "2025-10-20T06:09:31",
+      "power_w": 42,
+      "energy_wh": 8
+    },
+    {
+      "timestamp": "2025-10-20T06:14:32",
+      "power_w": 79,
+      "energy_wh": 8
+    },
+    {
+      "timestamp": "2025-10-20T06:19:34",
+      "power_w": 141,
+      "energy_wh": 16
+    },
+    {
+      "timestamp": "2025-10-20T06:24:35",
+      "power_w": 177,
+      "energy_wh": 40
+    },
+    {
+      "timestamp": "2025-10-20T06:29:36",
+      "power_w": 170,
+      "energy_wh": 48
+    },
+    {
+      "timestamp": "2025-10-20T06:34:38",
+      "power_w": 196,
+      "energy_wh": 64
+    },
+    {
+      "timestamp": "2025-10-20T06:39:39",
+      "power_w": 155,
+      "energy_wh": 80
+    },
+    {
+      "timestamp": "2025-10-20T06:44:40",
+      "power_w": 210,
+      "energy_wh": 96
+    },
+    {
+      "timestamp": "2025-10-20T06:49:41",
+      "power_w": 144,
+      "energy_wh": 112
+    },
+    {
+      "timestamp": "2025-10-20T06:54:42",
+      "power_w": 91,
+      "energy_wh": 120
+    },
+    {
+      "timestamp": "2025-10-20T06:59:43",
+      "power_w": 146,
+      "energy_wh": 128
+    },
+    {
+      "timestamp": "2025-10-20T07:04:44",
+      "power_w": 250,
+      "energy_wh": 152
+    },
+    {
+      "timestamp": "2025-10-20T07:09:54",
+      "power_w": 186,
+      "energy_wh": 168
+    },
+    {
+      "timestamp": "2025-10-20T07:14:55",
+      "power_w": 207,
+      "energy_wh": 184
+    },
+    {
+      "timestamp": "2025-10-20T07:19:58",
+      "power_w": 987,
+      "energy_wh": 224
+    },
+    {
+      "timestamp": "2025-10-20T07:24:59",
+      "power_w": 1006,
+      "energy_wh": 304
+    },
+    {
+      "timestamp": "2025-10-20T07:30:00",
+      "power_w": 1056,
+      "energy_wh": 376
+    },
+    {
+      "timestamp": "2025-10-20T07:35:02",
+      "power_w": 1122,
+      "energy_wh": 480
+    },
+    {
+      "timestamp": "2025-10-20T07:40:03",
+      "power_w": 1198,
+      "energy_wh": 576
+    },
+    {
+      "timestamp": "2025-10-20T07:45:04",
+      "power_w": 1277,
+      "energy_wh": 680
+    },
+    {
+      "timestamp": "2025-10-20T07:50:05",
+      "power_w": 1432,
+      "energy_wh": 800
+    },
+    {
+      "timestamp": "2025-10-20T07:55:06",
+      "power_w": 614,
+      "energy_wh": 912
+    },
+    {
+      "timestamp": "2025-10-20T08:00:07",
+      "power_w": 412,
+      "energy_wh": 952
+    },
+    {
+      "timestamp": "2025-10-20T08:05:08",
+      "power_w": 799,
+      "energy_wh": 1000
+    },
+    {
+      "timestamp": "2025-10-20T08:10:10",
+      "power_w": 815,
+      "energy_wh": 1088
+    },
+    {
+      "timestamp": "2025-10-20T08:15:11",
+      "power_w": 1727,
+      "energy_wh": 1168
+    },
+    {
+      "timestamp": "2025-10-20T08:20:12",
+      "power_w": 1726,
+      "energy_wh": 1336
+    },
+    {
+      "timestamp": "2025-10-20T08:25:13",
+      "power_w": 1754,
+      "energy_wh": 1480
+    },
+    {
+      "timestamp": "2025-10-20T08:28:09",
+      "power_w": 1783,
+      "energy_wh": 1568
+    },
+    {
+      "timestamp": "2025-10-20T08:33:10",
+      "power_w": 1791,
+      "energy_wh": 1696
+    },
+    {
+      "timestamp": "2025-10-20T08:38:11",
+      "power_w": 1900,
+      "energy_wh": 1848
+    },
+    {
+      "timestamp": "2025-10-20T09:02:25",
+      "power_w": 2125,
+      "energy_wh": 2640
+    },
+    {
+      "timestamp": "2025-10-20T09:07:26",
+      "power_w": 2148,
+      "energy_wh": 2816
+    },
+    {
+      "timestamp": "2025-10-20T09:12:27",
+      "power_w": 2211,
+      "energy_wh": 2992
+    },
+    {
+      "timestamp": "2025-10-20T09:19:42",
+      "power_w": 2688,
+      "energy_wh": 3248
+    },
+    {
+      "timestamp": "2025-10-20T09:23:20",
+      "power_w": 1857,
+      "energy_wh": 3400
+    }
+  ],
+  "ac_voltage": 251.5,
+  "grid_freq_hz": 50.03,
+  "inverter_temp_c": 47.4,
+  "energy_today_kwh": 3.4,
+  "energy_total_kwh": 69643.368,
+  "peak_power_w": 2688,
+  "status_code": 32768,
+  "status_text": "Unknown",
+  "status_class": "muted",
+  "dq_text": "STARTING",
+  "dq_class": "dq_warn",
+  "_last_sample_ts": "2025-10-20T09:23:20.134216",
+  "_last_energy_wh": 3400.0,
+  "_midnight": "2025-10-20T00:00:00"
+}

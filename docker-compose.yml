@@ -1,0 +1,26 @@
+version: '3.8'
+services:
+  vsn300-pvoutput:
+    build: .
+    image: vsn300-pvoutput:latest
+    container_name: vsn300-pvoutput
+    restart: unless-stopped
+    environment:
+      TZ: "Australia/Perth"
+      MODBUS_HOST: "192.168.1.220" # your VSN300 IP Address here
+      MODBUS_PORT: "502" # your VSN300 port here - 502 is standard
+      POLL_SECONDS: "300" # the VSN300 only polls every 5 minutes so not worth changing and keeps compliance with pvoutput.org API limits
+      DEBUG: "true" # show verbose logs on console & UI pill
+      DRY_RUN: "false" # set true to test without uploading to PVOutput
+      PVOUTPUT_API_KEY: "YourAPIkeyHere"
+      PVOUTPUT_SYSTEM_ID: "YourSystemIDhere"
+    volumes:
+      - ./vsn_data:/data
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: [ "CMD", "wget", "-q", "--spider", "http://localhost:8080" ]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 15s

@@ -1,0 +1,27 @@
+Third-Party Open Source Licenses
+================================
+
+This container includes the following open-source components:
+
+• Flask — BSD-3-Clause License  
+  Copyright (c) 2010-present Pallets Team  
+  https://flask.palletsprojects.com/
+
+• Requests — Apache License, Version 2.0  
+  Copyright (c) 2011-present Kenneth Reitz  
+  https://requests.readthedocs.io/
+
+• pymodbus — MIT License  
+  Copyright (c) 2009-present contributors  
+  https://github.com/riptideio/pymodbus
+
+• Chart.js — MIT License  
+  Copyright (c) 2013-present Chart.js contributors  
+  https://www.chartjs.org/
+
+---
+
+© 2025 David Deeds, licensed under the MIT License (unless otherwise stated).
+
+This file is provided to comply with open-source attribution requirements
+for the components listed above.
