@@ -9,6 +9,12 @@ You can pull from Docker hub also **daviddeeds/vsn300-pvoutput**
 
 Includes a local web dashboard with live charts for power, energy, voltage, and temperature.
 
+## Live Dashboard
+
+Below is an example of the running dashboard:
+
+![VSN300 → PVOutput Dashboard](assets/screenshot.jpg)
+
 Features
 
 - Modbus TCP polling (single-phase ABB Aurora / VSN300)
