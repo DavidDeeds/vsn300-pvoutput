@@ -17,9 +17,9 @@ Below is an example of the running dashboard:
 
 Features
 
-- Modbus TCP polling (single-phase ABB Aurora / VSN300)
+- Modbus TCP polling (VSN300) at least twice per minute to ensure new data is never missed in any one minute update cycle
 
-- Automatic PVOutput uploads (power W, energy Wh, voltage V, temperature °C)
+- Automatic PVOutput uploads (power W, energy Wh, voltage V, temperature °C) once per minute and only on data change to respect API rate limits
 
 - Auto-refresh dashboard on port 8080
 
@@ -38,7 +38,7 @@ Environment Variables
 | MODBUS_HOST  | 192.168.1.123  | Inverter IP address |
 | MODBUS_PORT  | 502  | Modbus TCP port |
 | MODBUS_UNIT_ID  | 2  | Modbus unit ID |
-| POLL_SECONDS  | 300  | Poll interval (seconds) |
+| POLL_SECONDS  | 25  | Poll interval (seconds) |
 | PVOUTPUT_API_KEY  | (required)  | Your PVOutput API key |
 | PVOUTPUT_SYSTEM_ID  | (required)  | Your PVOutput system ID |
 | STATE_DIR  | /data  | State directory |
