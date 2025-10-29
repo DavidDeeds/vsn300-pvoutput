@@ -97,8 +97,11 @@ def pvoutput_addstatus(power_w, energy_wh, voltage_v=None, temp_c=None):
         log.warning("Missing PVOutput creds."); return False
     h={"X-Pvoutput-Apikey":PV_API_KEY,"X-Pvoutput-SystemId":PV_SYSTEM_ID}
     now=datetime.now()
+    # d={"d":now.strftime("%Y%m%d"),"t":now.strftime("%H:%M"),
+       # "v1":int(round(energy_wh)),"v2":int(round(power_w))}
+       # Upload energy as integer Wh, without extra rounding
     d={"d":now.strftime("%Y%m%d"),"t":now.strftime("%H:%M"),
-       "v1":int(round(energy_wh)),"v2":int(round(power_w))}
+       "v1":int(energy_wh),"v2":int(round(power_w))}
     # include optional voltage and temperature
     if temp_c is not None:
         d["v5"] = round(temp_c, 1)     # °C
@@ -192,7 +195,8 @@ def read_legacy_block():
                 log.warning(f"Baseline check failed: {e}")
 
         if DEBUG:
-            log.debug(f"Decoded: V={v} F={f} P={p} E={e_wh:.2f}Wh SF={sf}")
+            # log.debug(f"Decoded: V={v} F={f} P={p} E={e_wh:.2f}Wh SF={sf}")
+            log.debug(f"Decoded: V={v} F={f} P={p} E={e_wh:.3f}Wh (today={energy_today_wh:.3f}Wh) SF={sf}")
 
         return {
             "ac_voltage": v,
@@ -252,8 +256,11 @@ def poller_loop():
                         "ac_voltage": v if 150 <= v <= 270 else None,
                         "grid_freq_hz": f,
                         "inverter_temp_c": t,
-                        "energy_today_kwh": round(e_wh_today / 1000, 3),
-                        "energy_total_kwh": round(e_wh_life / 1000, 3),
+                        # "energy_today_kwh": round(e_wh_today / 1000, 3),
+                        # "energy_total_kwh": round(e_wh_life / 1000, 3),
+                        # Keep full precision internally; round only for display later
+                        "energy_today_kwh": e_wh_today / 1000.0,
+                        "energy_total_kwh": e_wh_life / 1000.0,
                         "status_code": code,
                         "status_text": st_txt,
                         "status_class": st_cls,
@@ -281,10 +288,24 @@ def poller_loop():
                     # Set the new sample timestamp AFTER uptime calc
                     state["_last_sample_ts"] = now.isoformat()
 
+                ## Upload to PVOutput whenever inverter is awake (even at 0 W)
+                #if not is_night:
+                #    if pvoutput_addstatus(int(p), float(e_wh_today), voltage_v=v, temp_c=t):
+                #        state["last_upload"] = now.isoformat(timespec="seconds")
+                #else:
+                #    log.info("Nighttime — skipping PVOutput upload (inverter asleep)")
+
                 # Upload to PVOutput whenever inverter is awake (even at 0 W)
                 if not is_night:
-                    if pvoutput_addstatus(int(p), float(e_wh_today), voltage_v=v, temp_c=t):
-                        state["last_upload"] = now.isoformat(timespec="seconds")
+                    # Compare against previous readings to avoid duplicate uploads
+                    prev_e = state.get("_last_energy_wh", 0)
+                    prev_p = state.get("records", [{}])[-1].get("power_w", 0) if state.get("records") else 0
+
+                    if abs(e_wh_today - prev_e) >= 1 or abs(p - prev_p) >= 5:
+                        if pvoutput_addstatus(int(p), float(e_wh_today), voltage_v=v, temp_c=t):
+                            state["last_upload"] = now.isoformat(timespec="seconds")
+                    else:
+                        log.debug("No change in power/energy; skipping PVOutput upload")
                 else:
                     log.info("Nighttime — skipping PVOutput upload (inverter asleep)")
 

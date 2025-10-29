@@ -3,496 +3,386 @@
   "dry_run": false,
   "inverter_connected": true,
   "last_upload": "2025-10-20T09:23:20",
-  "uptime_minutes_today": 204.1,
+  "uptime_minutes_today": 140.0,
   "records": [
     {
-      "timestamp": "2025-10-19T14:11:25",
-      "power_w": 700,
-      "energy_wh": 0
-    },
-    {
-      "timestamp": "2025-10-19T14:16:26",
-      "power_w": 1020,
-      "energy_wh": 72
-    },
-    {
-      "timestamp": "2025-10-19T14:21:27",
-      "power_w": 735,
-      "energy_wh": 72
-    },
-    {
-      "timestamp": "2025-10-19T14:23:08",
-      "power_w": 757,
-      "energy_wh": 24
-    },
-    {
-      "timestamp": "2025-10-19T14:28:08",
-      "power_w": 865,
-      "energy_wh": 72
-    },
-    {
-      "timestamp": "2025-10-19T14:38:13",
-      "power_w": 675,
-      "energy_wh": 136
-    },
-    {
-      "timestamp": "2025-10-19T14:43:14",
-      "power_w": 564,
-      "energy_wh": 48
-    },
-    {
-      "timestamp": "2025-10-19T14:48:15",
-      "power_w": 455,
-      "energy_wh": 48
-    },
-    {
-      "timestamp": "2025-10-19T14:53:17",
-      "power_w": 515,
-      "energy_wh": 40
-    },
-    {
-      "timestamp": "2025-10-19T14:58:18",
-      "power_w": 414,
-      "energy_wh": 40
-    },
-    {
-      "timestamp": "2025-10-19T15:03:23",
-      "power_w": 553,
-      "energy_wh": 40
-    },
-    {
-      "timestamp": "2025-10-19T15:08:24",
-      "power_w": 528,
-      "energy_wh": 40
-    },
-    {
-      "timestamp": "2025-10-19T15:13:25",
-      "power_w": 564,
-      "energy_wh": 48
-    },
-    {
-      "timestamp": "2025-10-19T15:18:26",
-      "power_w": 601,
-      "energy_wh": 56
-    },
-    {
-      "timestamp": "2025-10-19T15:23:27",
-      "power_w": 520,
-      "energy_wh": 48
-    },
-    {
-      "timestamp": "2025-10-19T15:28:28",
-      "power_w": 544,
-      "energy_wh": 40
-    },
-    {
-      "timestamp": "2025-10-19T15:33:29",
-      "power_w": 470,
-      "energy_wh": 48
-    },
-    {
-      "timestamp": "2025-10-19T15:38:30",
-      "power_w": 340,
-      "energy_wh": 32
-    },
-    {
-      "timestamp": "2025-10-19T15:43:31",
-      "power_w": 400,
-      "energy_wh": 32
-    },
-    {
-      "timestamp": "2025-10-19T15:48:32",
-      "power_w": 549,
-      "energy_wh": 40
-    },
-    {
-      "timestamp": "2025-10-19T15:53:33",
-      "power_w": 473,
-      "energy_wh": 40
-    },
-    {
-      "timestamp": "2025-10-19T15:58:34",
-      "power_w": 458,
-      "energy_wh": 40
-    },
-    {
-      "timestamp": "2025-10-19T16:03:35",
-      "power_w": 421,
-      "energy_wh": 32
-    },
-    {
-      "timestamp": "2025-10-19T16:08:36",
-      "power_w": 321,
-      "energy_wh": 40
-    },
-    {
-      "timestamp": "2025-10-19T16:13:37",
-      "power_w": 303,
-      "energy_wh": 24
-    },
-    {
-      "timestamp": "2025-10-19T16:18:38",
-      "power_w": 159,
-      "energy_wh": 24
-    },
-    {
-      "timestamp": "2025-10-19T16:23:39",
-      "power_w": 129,
-      "energy_wh": 8
-    },
-    {
-      "timestamp": "2025-10-19T16:28:40",
-      "power_w": 103,
-      "energy_wh": 8
-    },
-    {
-      "timestamp": "2025-10-19T16:33:41",
-      "power_w": 147,
-      "energy_wh": 16
-    },
-    {
-      "timestamp": "2025-10-19T16:38:42",
-      "power_w": 146,
-      "energy_wh": 8
-    },
-    {
-      "timestamp": "2025-10-19T16:43:44",
-      "power_w": 137,
-      "energy_wh": 16
-    },
-    {
-      "timestamp": "2025-10-19T16:48:45",
-      "power_w": 155,
-      "energy_wh": 8
-    },
-    {
-      "timestamp": "2025-10-19T16:53:46",
-      "power_w": 165,
-      "energy_wh": 16
-    },
-    {
-      "timestamp": "2025-10-19T17:10:16",
-      "power_w": 359,
-      "energy_wh": 64
-    },
-    {
-      "timestamp": "2025-10-19T17:15:18",
-      "power_w": 333,
-      "energy_wh": 24
-    },
-    {
-      "timestamp": "2025-10-19T17:20:18",
-      "power_w": 259,
-      "energy_wh": 24
-    },
-    {
-      "timestamp": "2025-10-19T17:25:19",
-      "power_w": 207,
-      "energy_wh": 24
-    },
-    {
-      "timestamp": "2025-10-19T17:30:20",
-      "power_w": 126,
-      "energy_wh": 8
-    },
-    {
-      "timestamp": "2025-10-19T17:35:10",
-      "power_w": 132,
-      "energy_wh": 16
-    },
-    {
-      "timestamp": "2025-10-19T17:40:11",
-      "power_w": 159,
-      "energy_wh": 24
-    },
-    {
-      "timestamp": "2025-10-19T17:45:12",
-      "power_w": 152,
-      "energy_wh": 40
-    },
-    {
-      "timestamp": "2025-10-19T17:50:13",
-      "power_w": 108,
-      "energy_wh": 48
-    },
-    {
-      "timestamp": "2025-10-19T17:55:46",
-      "power_w": 135,
-      "energy_wh": 64
-    },
-    {
-      "timestamp": "2025-10-19T18:00:47",
-      "power_w": 124,
-      "energy_wh": 72
-    },
-    {
-      "timestamp": "2025-10-19T18:05:48",
-      "power_w": 96,
-      "energy_wh": 80
-    },
-    {
-      "timestamp": "2025-10-19T18:10:49",
-      "power_w": 61,
-      "energy_wh": 88
-    },
-    {
-      "timestamp": "2025-10-19T18:15:50",
-      "power_w": 41,
-      "energy_wh": 88
-    },
-    {
-      "timestamp": "2025-10-19T18:20:51",
-      "power_w": 18,
-      "energy_wh": 96
-    },
-    {
-      "timestamp": "2025-10-19T18:25:52",
-      "power_w": 0,
-      "energy_wh": 96
-    },
-    {
-      "timestamp": "2025-10-19T18:30:52",
-      "power_w": 0,
-      "energy_wh": 96
-    },
-    {
-      "timestamp": "2025-10-19T18:35:52",
-      "power_w": 0,
-      "energy_wh": 96
-    },
-    {
-      "timestamp": "2025-10-19T18:40:52",
-      "power_w": 0,
-      "energy_wh": 96
-    },
-    {
-      "timestamp": "2025-10-19T18:45:52",
-      "power_w": 0,
-      "energy_wh": 96
-    },
-    {
-      "timestamp": "2025-10-19T18:50:53",
-      "power_w": 0,
-      "energy_wh": 96
-    },
-    {
-      "timestamp": "2025-10-20T05:44:23",
+      "timestamp": "2025-10-28T05:30:57",
       "power_w": 0,
       "energy_wh": 0
     },
     {
-      "timestamp": "2025-10-20T05:49:23",
-      "power_w": 9,
+      "timestamp": "2025-10-28T05:32:57",
+      "power_w": 0,
       "energy_wh": 0
     },
     {
-      "timestamp": "2025-10-20T05:54:27",
+      "timestamp": "2025-10-28T05:34:57",
+      "power_w": 2,
+      "energy_wh": 0
+    },
+    {
+      "timestamp": "2025-10-28T05:36:57",
       "power_w": 7,
       "energy_wh": 0
     },
     {
-      "timestamp": "2025-10-20T05:59:29",
+      "timestamp": "2025-10-28T05:38:59",
+      "power_w": 11,
+      "energy_wh": 0
+    },
+    {
+      "timestamp": "2025-10-28T05:40:59",
+      "power_w": 3,
+      "energy_wh": 0
+    },
+    {
+      "timestamp": "2025-10-28T05:43:00",
+      "power_w": 15,
+      "energy_wh": 0
+    },
+    {
+      "timestamp": "2025-10-28T05:45:01",
+      "power_w": 20,
+      "energy_wh": 0
+    },
+    {
+      "timestamp": "2025-10-28T05:47:02",
       "power_w": 22,
       "energy_wh": 0
     },
     {
-      "timestamp": "2025-10-20T06:04:30",
-      "power_w": 41,
-      "energy_wh": 0
-    },
-    {
-      "timestamp": "2025-10-20T06:09:31",
-      "power_w": 42,
+      "timestamp": "2025-10-28T05:49:03",
+      "power_w": 26,
       "energy_wh": 8
     },
     {
-      "timestamp": "2025-10-20T06:14:32",
-      "power_w": 79,
+      "timestamp": "2025-10-28T05:51:03",
+      "power_w": 28,
       "energy_wh": 8
     },
     {
-      "timestamp": "2025-10-20T06:19:34",
-      "power_w": 141,
+      "timestamp": "2025-10-28T05:53:05",
+      "power_w": 39,
+      "energy_wh": 8
+    },
+    {
+      "timestamp": "2025-10-28T05:55:06",
+      "power_w": 43,
+      "energy_wh": 8
+    },
+    {
+      "timestamp": "2025-10-28T05:57:06",
+      "power_w": 39,
+      "energy_wh": 8
+    },
+    {
+      "timestamp": "2025-10-28T05:59:06",
+      "power_w": 45,
+      "energy_wh": 8
+    },
+    {
+      "timestamp": "2025-10-28T06:01:07",
+      "power_w": 58,
+      "energy_wh": 8
+    },
+    {
+      "timestamp": "2025-10-28T06:03:08",
+      "power_w": 64,
       "energy_wh": 16
     },
     {
-      "timestamp": "2025-10-20T06:24:35",
-      "power_w": 177,
+      "timestamp": "2025-10-28T06:05:09",
+      "power_w": 71,
+      "energy_wh": 16
+    },
+    {
+      "timestamp": "2025-10-28T06:07:10",
+      "power_w": 82,
+      "energy_wh": 16
+    },
+    {
+      "timestamp": "2025-10-28T06:09:11",
+      "power_w": 91,
+      "energy_wh": 24
+    },
+    {
+      "timestamp": "2025-10-28T06:11:12",
+      "power_w": 62,
+      "energy_wh": 24
+    },
+    {
+      "timestamp": "2025-10-28T06:13:13",
+      "power_w": 114,
+      "energy_wh": 24
+    },
+    {
+      "timestamp": "2025-10-28T06:15:14",
+      "power_w": 124,
+      "energy_wh": 32
+    },
+    {
+      "timestamp": "2025-10-28T06:17:15",
+      "power_w": 135,
       "energy_wh": 40
     },
     {
-      "timestamp": "2025-10-20T06:29:36",
-      "power_w": 170,
+      "timestamp": "2025-10-28T06:19:16",
+      "power_w": 157,
+      "energy_wh": 40
+    },
+    {
+      "timestamp": "2025-10-28T06:21:17",
+      "power_w": 175,
       "energy_wh": 48
     },
     {
-      "timestamp": "2025-10-20T06:34:38",
-      "power_w": 196,
+      "timestamp": "2025-10-28T06:23:19",
+      "power_w": 192,
+      "energy_wh": 56
+    },
+    {
+      "timestamp": "2025-10-28T06:25:20",
+      "power_w": 211,
+      "energy_wh": 56
+    },
+    {
+      "timestamp": "2025-10-28T06:27:21",
+      "power_w": 230,
       "energy_wh": 64
     },
     {
-      "timestamp": "2025-10-20T06:39:39",
-      "power_w": 155,
-      "energy_wh": 80
+      "timestamp": "2025-10-28T06:29:23",
+      "power_w": 250,
+      "energy_wh": 72
     },
     {
-      "timestamp": "2025-10-20T06:44:40",
-      "power_w": 210,
+      "timestamp": "2025-10-28T06:31:24",
+      "power_w": 274,
+      "energy_wh": 88
+    },
+    {
+      "timestamp": "2025-10-28T06:33:26",
+      "power_w": 294,
       "energy_wh": 96
     },
     {
-      "timestamp": "2025-10-20T06:49:41",
-      "power_w": 144,
+      "timestamp": "2025-10-28T06:35:27",
+      "power_w": 317,
+      "energy_wh": 104
+    },
+    {
+      "timestamp": "2025-10-28T06:37:29",
+      "power_w": 342,
       "energy_wh": 112
     },
     {
-      "timestamp": "2025-10-20T06:54:42",
-      "power_w": 91,
-      "energy_wh": 120
-    },
-    {
-      "timestamp": "2025-10-20T06:59:43",
-      "power_w": 146,
+      "timestamp": "2025-10-28T06:39:30",
+      "power_w": 366,
       "energy_wh": 128
     },
     {
-      "timestamp": "2025-10-20T07:04:44",
-      "power_w": 250,
+      "timestamp": "2025-10-28T06:41:31",
+      "power_w": 389,
+      "energy_wh": 136
+    },
+    {
+      "timestamp": "2025-10-28T06:43:32",
+      "power_w": 413,
       "energy_wh": 152
     },
     {
-      "timestamp": "2025-10-20T07:09:54",
-      "power_w": 186,
+      "timestamp": "2025-10-28T06:45:32",
+      "power_w": 439,
       "energy_wh": 168
     },
     {
-      "timestamp": "2025-10-20T07:14:55",
-      "power_w": 207,
+      "timestamp": "2025-10-28T06:47:33",
+      "power_w": 465,
       "energy_wh": 184
     },
     {
-      "timestamp": "2025-10-20T07:19:58",
-      "power_w": 987,
-      "energy_wh": 224
+      "timestamp": "2025-10-28T06:49:35",
+      "power_w": 492,
+      "energy_wh": 200
     },
     {
-      "timestamp": "2025-10-20T07:24:59",
-      "power_w": 1006,
+      "timestamp": "2025-10-28T06:51:36",
+      "power_w": 518,
+      "energy_wh": 216
+    },
+    {
+      "timestamp": "2025-10-28T06:53:36",
+      "power_w": 544,
+      "energy_wh": 232
+    },
+    {
+      "timestamp": "2025-10-28T06:55:38",
+      "power_w": 585,
+      "energy_wh": 264
+    },
+    {
+      "timestamp": "2025-10-28T06:57:39",
+      "power_w": 602,
+      "energy_wh": 272
+    },
+    {
+      "timestamp": "2025-10-28T06:59:39",
+      "power_w": 641,
       "energy_wh": 304
     },
     {
-      "timestamp": "2025-10-20T07:30:00",
-      "power_w": 1056,
-      "energy_wh": 376
+      "timestamp": "2025-10-28T07:01:41",
+      "power_w": 667,
+      "energy_wh": 320
     },
     {
-      "timestamp": "2025-10-20T07:35:02",
-      "power_w": 1122,
-      "energy_wh": 480
+      "timestamp": "2025-10-28T07:03:41",
+      "power_w": 694,
+      "energy_wh": 344
     },
     {
-      "timestamp": "2025-10-20T07:40:03",
-      "power_w": 1198,
-      "energy_wh": 576
+      "timestamp": "2025-10-28T07:05:42",
+      "power_w": 719,
+      "energy_wh": 368
     },
     {
-      "timestamp": "2025-10-20T07:45:04",
-      "power_w": 1277,
-      "energy_wh": 680
+      "timestamp": "2025-10-28T07:07:43",
+      "power_w": 746,
+      "energy_wh": 392
     },
     {
-      "timestamp": "2025-10-20T07:50:05",
-      "power_w": 1432,
-      "energy_wh": 800
+      "timestamp": "2025-10-28T07:09:44",
+      "power_w": 771,
+      "energy_wh": 416
     },
     {
-      "timestamp": "2025-10-20T07:55:06",
-      "power_w": 614,
-      "energy_wh": 912
-    },
-    {
-      "timestamp": "2025-10-20T08:00:07",
-      "power_w": 412,
-      "energy_wh": 952
-    },
-    {
-      "timestamp": "2025-10-20T08:05:08",
+      "timestamp": "2025-10-28T07:11:45",
       "power_w": 799,
-      "energy_wh": 1000
+      "energy_wh": 448
     },
     {
-      "timestamp": "2025-10-20T08:10:10",
-      "power_w": 815,
-      "energy_wh": 1088
+      "timestamp": "2025-10-28T07:15:51",
+      "power_w": 851,
+      "energy_wh": 504
     },
     {
-      "timestamp": "2025-10-20T08:15:11",
-      "power_w": 1727,
-      "energy_wh": 1168
+      "timestamp": "2025-10-28T07:17:52",
+      "power_w": 877,
+      "energy_wh": 528
     },
     {
-      "timestamp": "2025-10-20T08:20:12",
-      "power_w": 1726,
-      "energy_wh": 1336
+      "timestamp": "2025-10-28T07:19:53",
+      "power_w": 905,
+      "energy_wh": 560
     },
     {
-      "timestamp": "2025-10-20T08:25:13",
-      "power_w": 1754,
-      "energy_wh": 1480
+      "timestamp": "2025-10-28T07:21:54",
+      "power_w": 932,
+      "energy_wh": 592
     },
     {
-      "timestamp": "2025-10-20T08:28:09",
-      "power_w": 1783,
-      "energy_wh": 1568
+      "timestamp": "2025-10-28T07:23:55",
+      "power_w": 958,
+      "energy_wh": 616
     },
     {
-      "timestamp": "2025-10-20T08:33:10",
-      "power_w": 1791,
-      "energy_wh": 1696
+      "timestamp": "2025-10-28T07:25:56",
+      "power_w": 982,
+      "energy_wh": 656
     },
     {
-      "timestamp": "2025-10-20T08:38:11",
-      "power_w": 1900,
-      "energy_wh": 1848
+      "timestamp": "2025-10-28T07:27:57",
+      "power_w": 1010,
+      "energy_wh": 688
     },
     {
-      "timestamp": "2025-10-20T09:02:25",
-      "power_w": 2125,
-      "energy_wh": 2640
+      "timestamp": "2025-10-28T07:29:58",
+      "power_w": 1037,
+      "energy_wh": 720
     },
     {
-      "timestamp": "2025-10-20T09:07:26",
-      "power_w": 2148,
-      "energy_wh": 2816
+      "timestamp": "2025-10-28T07:31:59",
+      "power_w": 1063,
+      "energy_wh": 752
     },
     {
-      "timestamp": "2025-10-20T09:12:27",
-      "power_w": 2211,
-      "energy_wh": 2992
+      "timestamp": "2025-10-28T07:34:00",
+      "power_w": 1087,
+      "energy_wh": 792
     },
     {
-      "timestamp": "2025-10-20T09:19:42",
-      "power_w": 2688,
-      "energy_wh": 3248
+      "timestamp": "2025-10-28T07:36:01",
+      "power_w": 1113,
+      "energy_wh": 824
     },
     {
-      "timestamp": "2025-10-20T09:23:20",
-      "power_w": 1857,
-      "energy_wh": 3400
+      "timestamp": "2025-10-28T07:38:02",
+      "power_w": 1141,
+      "energy_wh": 872
+    },
+    {
+      "timestamp": "2025-10-28T07:40:03",
+      "power_w": 1166,
+      "energy_wh": 904
+    },
+    {
+      "timestamp": "2025-10-28T07:42:04",
+      "power_w": 1190,
+      "energy_wh": 944
+    },
+    {
+      "timestamp": "2025-10-28T07:44:05",
+      "power_w": 1213,
+      "energy_wh": 984
+    },
+    {
+      "timestamp": "2025-10-28T07:46:06",
+      "power_w": 1239,
+      "energy_wh": 1024
+    },
+    {
+      "timestamp": "2025-10-28T07:48:07",
+      "power_w": 1269,
+      "energy_wh": 1064
+    },
+    {
+      "timestamp": "2025-10-28T07:50:08",
+      "power_w": 1295,
+      "energy_wh": 1104
+    },
+    {
+      "timestamp": "2025-10-28T07:52:09",
+      "power_w": 1318,
+      "energy_wh": 1144
+    },
+    {
+      "timestamp": "2025-10-28T07:54:12",
+      "power_w": 1344,
+      "energy_wh": 1192
+    },
+    {
+      "timestamp": "2025-10-28T07:56:14",
+      "power_w": 1371,
+      "energy_wh": 1240
+    },
+    {
+      "timestamp": "2025-10-28T07:58:15",
+      "power_w": 1395,
+      "energy_wh": 1288
     }
   ],
-  "ac_voltage": 251.5,
-  "grid_freq_hz": 50.03,
-  "inverter_temp_c": 47.4,
-  "energy_today_kwh": 3.4,
-  "energy_total_kwh": 69643.368,
+  "ac_voltage": 246.3,
+  "grid_freq_hz": 50.0,
+  "inverter_temp_c": 40.3,
+  "energy_today_kwh": 1.288,
+  "energy_total_kwh": 69781.12,
   "peak_power_w": 2688,
   "status_code": 32768,
   "status_text": "Unknown",
   "status_class": "muted",
-  "dq_text": "STARTING",
-  "dq_class": "dq_warn",
-  "_last_sample_ts": "2025-10-20T09:23:20.134216",
-  "_last_energy_wh": 3400.0,
-  "_midnight": "2025-10-20T00:00:00"
+  "dq_text": "LIVE",
+  "dq_class": "dq_ok",
+  "_last_sample_ts": "2025-10-28T07:58:15.440828",
+  "_last_energy_wh": 1288.0,
+  "_midnight": "2025-10-28T00:00:00"
 }
